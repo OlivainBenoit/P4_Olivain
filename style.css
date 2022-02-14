@@ -27,6 +27,25 @@ a:hover {
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.row-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-sm-6 {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.col-sm-6 p {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-lines-h2-bg img {
+  margin: auto;
+}
+
 .bloc {
   width: 100%;
   clear: both;
@@ -679,7 +698,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1040,6 +1059,10 @@ footer .white {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
